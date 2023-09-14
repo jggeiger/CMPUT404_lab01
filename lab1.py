@@ -1,18 +1,9 @@
 import requests
 
 print(requests.__version__)
-#2 already installed, 2.25.1
-#3 not installed, 2.31.0
-#4 virtual environment packages are up to date (fresh installs)
-#5 301 code is given. to get 200, add www. before google.com
-#6 301, same as using -i.  www. changes code to 418 
-#7 Changed line to 
-# <H3>Form Contents:</H3>
-# <DL>
-# <DT>X: <i>&lt;type 'instance'&gt;</i>
-# <DD>MiniFieldStorage('X', 'Y')
-# </DL>
 
+#raw python code
+URL = "https://raw.githubusercontent.com/jggeiger/CMPUT404_lab01/main/lab1.py?token=GHSAT0AAAAAACHR6S7223YGECSQ7SXCD4JYZICMJNA"
 
 #resp = requests.get("http://google.com")
 #print(resp.text)
